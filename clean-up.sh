@@ -17,4 +17,4 @@ if [ "$old_files" -gt 0 ]; then
     echo "Deleted $old_files old files."
 else
     echo "No old files to delete. Retaining the most recent 20 files."
-fi
+fi 
