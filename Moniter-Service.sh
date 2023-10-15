@@ -8,6 +8,6 @@ for i in $services; do
         echo "$i is stopped"
         echo "$i is stopped" | mail -s "Service monitor" "bharathsh98@gmail.com"
         echo "Attempting to start $i"
-        sudo service "$i" start
+        sudo service "$i" start 
     fi
 done
