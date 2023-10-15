@@ -1,6 +1,6 @@
 #!/bin/bash
 
-services="sshd postfix acpid apparmor apport"
+services="sshd postfix"
 
 for i in $services; do
     ps -C "$i"
